@@ -42,11 +42,11 @@ QString BitcoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("LTC");
-    case mBTC: return QString("lites");
-    case uBTC: return QString("photons");
-    case SAT: return QString("litoshi");
-    default: return QString("???");
+    case BTC: return QString("EML");
+    case mBTC: return QString("mEML");
+    case uBTC: return QString("μEML");
+    case SAT: return QString("emotoshi");
+    default: return QString("Emolumento");
     }
 }
 
@@ -64,11 +64,11 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Litecoins");
-    case mBTC: return QString("Lites (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Photons (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case SAT: return QString("Litoshis (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    default: return QString("???");
+    case BTC: return QString("Emolumento");
+    case mBTC: return QString("Mili-emolumento (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-emolumento (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case SAT: return QString("Emotoshis (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    default: return QString("Emolumento");
     }
 }
 
