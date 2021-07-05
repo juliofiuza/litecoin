@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/litecoin-wallet
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/emolumento
+src/emolumentod
+src/emolumento-cli
+src/emolumento-tx
+src/emolumento-wallet
+src/test/test_emolumento
+src/test/test_emolumento_fuzzy
+src/qt/test/test_emolumento-qt
 
 # autoreconf
 Makefile.in
@@ -83,13 +83,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-litecoin-Qt.app
+emolumento-qt
+emolumento-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+emolumento-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -101,7 +101,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_emolumento.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -124,3 +124,5 @@ db4/
 
 # clang-check
 *.plist
+
+extra
